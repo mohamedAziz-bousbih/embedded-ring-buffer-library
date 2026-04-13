@@ -71,7 +71,7 @@ void   ring_buffer_clear(RingBuffer *rb);
 ## Build and test
 
 Requires a C99 compiler (GCC, Clang, or MSVC).  
-On Windows: use [MSYS2/MinGW](https://www.msys2.org/) or WSL.
+On Windows: use [MSYS2/MinGW](https://www.msys2.org/), WSL, or the MinGW bundled with CodeBlocks / CLion.
 
 ```bash
 # Build and run the test suite
@@ -83,7 +83,7 @@ make example
 
 Expected output:
 ```
-All tests passed. (33/33)
+All tests passed. (62/62)
 ```
 
 ---
